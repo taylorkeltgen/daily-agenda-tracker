@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -18,7 +19,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +31,55 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="time-block row">
+        <p class="hour">9AM</p>
+        <textarea name="nineText" id="nineText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">10AM</p>
+        <textarea name="tenText" id="tenText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">11AM</p>
+        <textarea name="elevenText" id="elevenText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">12PM</p>
+        <textarea name="twelveText" id="twelveText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">1PM</p>
+        <textarea name="oneText" id="oneText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">2PM</p>
+        <textarea name="twoText" id="twoText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">3PM</p>
+        <textarea name="threeText" id="threeText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">4PM</p>
+        <textarea name="fourText" id="fourText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
+      <div class="time-block row">
+        <p class="hour">5PM</p>
+        <textarea name="fiveText" id="fiveText" cols="80" rows="3"></textarea>
+        <button type="button" class="btn btn-lg saveBtn"><span class="glyphicon glyphicon-floppy-disk"></span></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./asset/js/script.js"></script>
   </body>
 </html>
