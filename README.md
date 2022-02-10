@@ -18,9 +18,11 @@
 
 ## Website:
 
-https://taylorkeltgen.github.io/
+https://taylorkeltgen.github.io/daily-agenda-tracker/
 
 ## Screenshot:
+
+![Screenshot](Screenshot.png)
 
 ## Contributions:
 
